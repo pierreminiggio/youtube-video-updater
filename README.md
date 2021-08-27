@@ -8,8 +8,8 @@ use PierreMiniggio\YoutubeVideoUpdater\VideoUpdater;
 
 require __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-$uploader = new VideoUpdater();
-$uploader->update(
+$updater = new VideoUpdater();
+$updater->update(
     'accessToken',
     'videoId',
     'title',
